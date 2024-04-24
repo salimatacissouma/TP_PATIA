@@ -3,7 +3,9 @@
 n1 n2 n3 n4 - node
 c1 c2 c3 - color
 )
-
+;; Les couleurs c1,c2 et c3 sont différentes.
+;; n1-n2,n1-n3,n2-n3 et n3-n4 sont des arcs.
+;; n1,n2,n3 et n4 sont incolores.
 (:init
     (not_same_color c1 c2)
     (not_same_color c2 c1)
@@ -24,7 +26,7 @@ c1 c2 c3 - color
     (colorless n3)
     (colorless n4)
 )
-
+;; Le but c'est d'avoir tous les arcs colorés.
 (:goal (and
     (nodes_colored n1 n2)
     (nodes_colored n1 n3)

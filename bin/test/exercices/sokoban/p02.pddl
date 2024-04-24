@@ -46,13 +46,9 @@
 
     (has_target c4)
 
-    ;todo: put the initial state's facts and numeric values here
 )
 
 (:goal (and
     (box_on_final_case b c4)
 ))
-
-;un-comment the following line if metric is needed
-;(:metric minimize (???))
 )

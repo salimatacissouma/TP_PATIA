@@ -3,7 +3,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;Header and description
 
-(define (domain HANOÏ)
+(define (domain hanoï)
 
 ;remove requirements that are not needed
 (:requirements :strips :typing )
@@ -11,8 +11,7 @@
 (:types disk stack
 )
 
-; un-comment following line if constants are needed
-;(:constants )
+
 
 (:predicates (on ?x - disk ?y - disk)
 	       (onstack ?x - disk ?y - stack)
