@@ -1,5 +1,6 @@
-;Header and description
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; poursuit_evasion
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (define (domain poursuit_evasion)
 
 ;remove requirements that are not needed

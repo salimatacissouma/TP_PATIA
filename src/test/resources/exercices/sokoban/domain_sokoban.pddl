@@ -1,9 +1,11 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; sokoban
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (define (domain sokoban)
 
 (:requirements :strips :typing)
 
-  (:types agent case box
-  )
+  (:types agent case box)
 
 
   (:predicates
