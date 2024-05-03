@@ -25,8 +25,6 @@ import org.sat4j.specs.TimeoutException;
 
 /**
  * The class is a SAT planner. Solves a pddl problem using a SAT solver
- *
- * // @author A. Apeloig, M. Clerget, Y. Cheriti
  */
 @CommandLine.Command(name = "SAT", version = "SAT 1.0", description = "Solves a specified planning problem using a SAT encoding.") 
 
