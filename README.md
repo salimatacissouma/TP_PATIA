@@ -55,3 +55,9 @@ The library is open source. If you use it, please cite us:
 
 > D. Pellier & H. Fiorino (2017) PDDL4J: a planning domain description library for java, Journal of Experimental & Theoretical Artificial Intelligence, 30:1, 143-176
 https://doi.org/10.1080/0952813X.2017.1409278
+
+## 6. How to use SAT planner
+1. Go to the directory planner
+2. Use command line " bash tests.sh" to run the test
+3. Go to the directory blocks,depots,gripper and logicstics in directory planner for resault files
+
